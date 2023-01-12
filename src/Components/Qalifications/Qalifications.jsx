@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Qalifications.css";
 
 export default function Qalifications() {
-  const [ToggleState, setToggleState] = useState(0);
+  const [ToggleState, setToggleState] = useState(1);
   const ToggleTab = (index) => {
     setToggleState(index);
   };
@@ -31,7 +31,7 @@ export default function Qalifications() {
               }
               onClick={() => ToggleTab(2)}
             >
-              <i class="uil uil-briefcase-alt qali__icon"></i>Experience
+              <i class="uil uil-briefcase-alt qali__icon"></i>Projects
             </div>
           </div>
           <div className="qali__sections">
@@ -43,11 +43,27 @@ export default function Qalifications() {
               }
             >
               <div className="qali__data">
+                <div></div>
                 <div>
-                  <h3 className="qali__title">Web Designer</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <span className="qali__rounder"></span>
+                  <span className="qali__line"></span>
+                </div>
+                <div>
+                  <h3 className="qali__title">Frontend Diploma</h3>
+                  <span className="qali__subtitle">Route Academy</span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i> 2022
+                  </div>
+                </div>
+              </div>
+              <div className="qali__data">
+                <div>
+                  <h3 className="qali__title">React - The Complete Guide</h3>
+                  <span className="qali__subtitle">
+                    (Maximilian Schwarzmüller) Udemy Courses
+                  </span>
+                  <div className="qali__calender">
+                    <i class="uil uil-calendar-alt"></i> 2022
                   </div>
                 </div>
                 <div>
@@ -62,19 +78,27 @@ export default function Qalifications() {
                   <span className="qali__line"></span>
                 </div>
                 <div>
-                  <h3 className="qali__title">Art Director</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <h3 className="qali__title">
+                    The Complete JavaScript Course
+                  </h3>
+                  <span className="qali__subtitle">
+                    (Jonas Schmedtmann) Udemy Courses
+                  </span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i> 2021
                   </div>
                 </div>
               </div>
               <div className="qali__data">
                 <div>
-                  <h3 className="qali__title">Web Development</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <h3 className="qali__title">
+                    Build Responsive Real-World Websites with HTML and CSS
+                  </h3>
+                  <span className="qali__subtitle">
+                    (Jonas Schmedtmann) Udemy Courses
+                  </span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i> 2021
                   </div>
                 </div>
                 <div>
@@ -89,10 +113,10 @@ export default function Qalifications() {
                   <span className="qali__line"></span>
                 </div>
                 <div>
-                  <h3 className="qali__title">UI/UX Expert</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <h3 className="qali__title">Faculty of engineering</h3>
+                  <span className="qali__subtitle">Pyramids Institute</span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    <i class="uil uil-calendar-alt"></i> 2014-2019
                   </div>
                 </div>
                 <div></div>
@@ -111,10 +135,10 @@ export default function Qalifications() {
             >
               <div className="qali__data">
                 <div>
-                  <h3 className="qali__title">Web Designer2</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <h3 className="qali__title">Shopping Hub</h3>
+                  <span className="qali__subtitle">shopping cart</span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
                   </div>
                 </div>
                 <div>
@@ -129,19 +153,19 @@ export default function Qalifications() {
                   <span className="qali__line"></span>
                 </div>
                 <div>
-                  <h3 className="qali__title">Art Director2</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <h3 className="qali__title">Notes</h3>
+                  <span className="qali__subtitle">CRUDS site</span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
                   </div>
                 </div>
               </div>
               <div className="qali__data">
                 <div>
-                  <h3 className="qali__title">Web Development2</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <h3 className="qali__title">Noxes</h3>
+                  <span className="qali__subtitle">Movies site</span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
                   </div>
                 </div>
                 <div>
@@ -156,10 +180,66 @@ export default function Qalifications() {
                   <span className="qali__line"></span>
                 </div>
                 <div>
-                  <h3 className="qali__title">UI/UX Expert2</h3>
-                  <span className="qali__subtitle">spain Institute</span>
+                  <h3 className="qali__title">Weather</h3>
+                  <span className="qali__subtitle">Weather site</span>
                   <div className="qali__calender">
-                    <i class="uil uil-calendar-alt"></i>2021-present
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
+                  </div>
+                </div>
+              </div>
+              <div className="qali__data">
+                <div>
+                  <h3 className="qali__title">Mapty</h3>
+                  <span className="qali__subtitle">
+                    Walking and Cycling site
+                  </span>
+                  <div className="qali__calender">
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
+                  </div>
+                </div>
+                <div>
+                  <span className="qali__rounder"></span>
+                  <span className="qali__line"></span>
+                </div>
+              </div>
+              <div className="qali__data">
+                <div></div>
+                <div>
+                  <span className="qali__rounder"></span>
+                  <span className="qali__line"></span>
+                </div>
+                <div>
+                  <h3 className="qali__title">Guess My Number</h3>
+                  <span className="qali__subtitle">Game site</span>
+                  <div className="qali__calender">
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
+                  </div>
+                </div>
+              </div>
+              <div className="qali__data">
+                <div>
+                  <h3 className="qali__title">Natours</h3>
+                  <span className="qali__subtitle">Trips site</span>
+                  <div className="qali__calender">
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
+                  </div>
+                </div>
+                <div>
+                  <span className="qali__rounder"></span>
+                  <span className="qali__line"></span>
+                </div>
+              </div>
+              <div className="qali__data">
+                <div></div>
+                <div>
+                  <span className="qali__rounder"></span>
+                  <span className="qali__line"></span>
+                </div>
+                <div>
+                  <h3 className="qali__title">Omnifood</h3>
+                  <span className="qali__subtitle">Food site</span>
+                  <div className="qali__calender">
+                    {/* <i class="uil uil-calendar-alt"></i>2021-present */}
                   </div>
                 </div>
                 <div></div>

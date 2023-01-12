@@ -17,6 +17,7 @@ export default function Contact() {
                   mohamedtarek7670@gmail.com
                 </span>
                 <a
+                  target={"_blank"}
                   href="mailto:mohamedtarek7670@gmail.com.com"
                   className="contact__button"
                 >
@@ -29,6 +30,7 @@ export default function Contact() {
                 <h3 className="contact__card-title">Whatsapp</h3>
                 <span className="contact__card-data">(+20)01112698044</span>
                 <a
+                  target={"_blank"}
                   href="https://api.whatsapp.com/send?phone=01112698044&text=Hello, more information!
 "
                   className="contact__button"

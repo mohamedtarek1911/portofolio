@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import aboutImg from "../../assets/WhatsApp Image 2022-12-28 at 9.12.05 PM.jpeg";
-import cv from "../../assets/MohamedTarek.pdf";
+import cv from "../../assets/Mohamed Tarek_Resume.pdf";
 import Info from "./Info";
 export default function About() {
   return (
@@ -14,10 +14,10 @@ export default function About() {
           <div className="about__data">
             <Info />
             <p className="about__desc">
-              My name is Mohamed Tarek, Frontend developer, With extensive
-              knowledge and experience in web development, learning new
-              technologies, my favorite language is javascript.I create web
-              pages with UI / UX user interface
+              My name is Mohamed Tarek, a Frontend developer; with extensive
+              knowledge and experience in web development and learning new
+              technologies; my favorite language is javascript. I create web
+              pages with UI / UX user interface .
             </p>
             <a download="" href={cv} className="button button--flex">
               Download Cv

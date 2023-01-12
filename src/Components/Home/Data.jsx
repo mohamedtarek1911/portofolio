@@ -58,8 +58,8 @@ export default function Data() {
         </h1>
         <h3 className="home__subtitle">Frontend Developer</h3>
         <p className="home__desc">
-          High level experience in web developer and development knowledge,
-          Javascript experience .
+          High-level experience in web developer and development knowledge,
+          Javascript experience.
         </p>
         <a href="#contact" className="button button--flex">
           Contact Me{" "}
