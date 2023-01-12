@@ -8,7 +8,7 @@
   height: var(--header-height);
 }
 .nav {
-  margin-top: 0.75rem;
+  margin-top: 0.5rem;
   height: calc(var(--header-height)+2rem);
   display: flex;
   justify-content: space-between;
