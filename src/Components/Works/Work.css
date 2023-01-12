@@ -21,6 +21,7 @@
   /* width: 295px;
    */
   width: 550px;
+  /* width: max-content; */
   overflow: hidden;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
