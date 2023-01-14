@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.8827bbc6.css",
-    "main.js": "/portofolio/static/js/main.c8d7f8d3.js",
+    "main.css": "/portofolio/static/css/main.5d766d2c.css",
+    "main.js": "/portofolio/static/js/main.d0607d68.js",
     "static/media/boxicons.svg": "/portofolio/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
     "static/media/IMG_0514.jpg": "/portofolio/static/media/IMG_0514.1067f254595540a542b1.jpg",
     "static/media/Weather.jpg": "/portofolio/static/media/Weather.8b87bbada36a74a22f66.jpg",
@@ -25,7 +25,7 @@
     "static/media/Deflio.jpg": "/portofolio/static/media/Deflio.5744d8d3c0ac3155569e.jpg",
     "static/media/Guess.jpg": "/portofolio/static/media/Guess.1a7390dd1880ef71e434.jpg",
     "static/media/Cruds.jpg": "/portofolio/static/media/Cruds.c118ee84a2881893a0a5.jpg",
-    "static/media/Mohamed Tarek_Resume.pdf": "/portofolio/static/media/Mohamed Tarek_Resume.71a42d00c1f37b3e39a4.pdf",
+    "static/media/Mohamed_Tarek_Resume.pdf": "/portofolio/static/media/Mohamed_Tarek_Resume.7ef95b66f0e8ba2546f3.pdf",
     "static/media/fa-regular-400.ttf": "/portofolio/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
     "static/media/Notes.jpg": "/portofolio/static/media/Notes.02a913ab48fb49eb5e4e.jpg",
     "static/media/unicons-17.svg": "/portofolio/static/media/unicons-17.1a716ac7acb1149977e4.svg",
@@ -137,11 +137,11 @@
     "static/media/unicons-20.woff2": "/portofolio/static/media/unicons-20.6c809da561fa04cfaf55.woff2",
     "static/media/unicons-20.svg": "/portofolio/static/media/unicons-20.2ad9c206a43dc50bde94.svg",
     "index.html": "/portofolio/index.html",
-    "main.8827bbc6.css.map": "/portofolio/static/css/main.8827bbc6.css.map",
-    "main.c8d7f8d3.js.map": "/portofolio/static/js/main.c8d7f8d3.js.map"
+    "main.5d766d2c.css.map": "/portofolio/static/css/main.5d766d2c.css.map",
+    "main.d0607d68.js.map": "/portofolio/static/js/main.d0607d68.js.map"
   },
   "entrypoints": [
-    "static/css/main.8827bbc6.css",
-    "static/js/main.c8d7f8d3.js"
+    "static/css/main.5d766d2c.css",
+    "static/js/main.d0607d68.js"
   ]
 }
