@@ -28,7 +28,7 @@ export default function Contact() {
               <div className="contact__card">
                 <i className="bx bxl-whatsapp contact__card-icon"></i>
                 <h3 className="contact__card-title">Whatsapp</h3>
-                <span className="contact__card-data">(+20)01112698044</span>
+                <span className="contact__card-data">(+20)1112698044</span>
                 <a
                   target={"_blank"}
                   href="https://api.whatsapp.com/send?phone=01112698044&text=Hello, more information!
@@ -43,8 +43,12 @@ export default function Contact() {
                 <i className="bx bx-location-plus contact__card-icon"></i>
                 <h3 className="contact__card-title">Location</h3>
                 <span className="contact__card-data">Maadi,Cairo,Egypt</span>
-                <a href="" className="contact__button">
-                  write Me{" "}
+                <a
+                  target={"_blank"}
+                  href="https://goo.gl/maps/mWGJ9yEqF52VuDtf9"
+                  className="contact__button"
+                >
+                  My location{" "}
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>

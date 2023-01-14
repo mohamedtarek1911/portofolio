@@ -12,21 +12,21 @@ export default function Frontend() {
               <i class="bx bx-badge-check"></i>
               <div>
                 <h3 className="skills__name">Bootstrap</h3>
-                <span className="skills__level">Intermediate</span>
+                {/* <span className="skills__level">Intermediate</span> */}
               </div>
             </div>
             <div className="skills__data">
               <i class="bx bx-badge-check"></i>
               <div>
                 <h3 className="skills__name">SASS</h3>
-                <span className="skills__level">Intermediate</span>
+                {/* <span className="skills__level">Intermediate</span> */}
               </div>
             </div>
             <div className="skills__data">
               <i class="bx bx-badge-check"></i>
               <div>
                 <h3 className="skills__name">ECMAScript</h3>
-                <span className="skills__level">Advanced</span>
+                {/* <span className="skills__level">Advanced</span> */}
               </div>
             </div>
           </div>
@@ -35,21 +35,21 @@ export default function Frontend() {
               <i class="bx bx-badge-check"></i>
               <div>
                 <h3 className="skills__name">JQuery</h3>
-                <span className="skills__level">Intermediate</span>
+                {/* <span className="skills__level">Intermediate</span> */}
               </div>
             </div>
             <div className="skills__data">
               <i class="bx bx-badge-check"></i>
               <div>
                 <h3 className="skills__name">Git & GitHub</h3>
-                <span className="skills__level">Intermediate</span>
+                {/* <span className="skills__level">Intermediate</span> */}
               </div>
             </div>
             <div className="skills__data">
               <i class="bx bx-badge-check"></i>
               <div>
                 <h3 className="skills__name">SQL</h3>
-                <span className="skills__level">beginner</span>
+                {/* <span className="skills__level">beginner</span> */}
               </div>
             </div>
           </div>

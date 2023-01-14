@@ -28,6 +28,7 @@
 .skills__data {
   display: flex;
   column-gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 .skills .bx-badge-check {
   font-size: 1.1rem;
