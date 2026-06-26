@@ -1,6 +1,22 @@
 import React from "react";
 import "./Contact.css";
+
 export default function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const project = formData.get("project");
+
+    const subject = encodeURIComponent(`Portfolio message from ${name}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${project}`
+    );
+
+    window.location.href = `mailto:mohamedtarek7670@gmail.com?subject=${subject}&body=${body}`;
+  };
+
   return (
     <>
       <section className="section contact" id="contact">
@@ -17,34 +33,48 @@ export default function Contact() {
                   mohamedtarek7670@gmail.com
                 </span>
                 <a
-                  target={"_blank"}
-                  href="mailto:mohamedtarek7670@gmail.com.com"
+                  href="mailto:mohamedtarek7670@gmail.com"
                   className="contact__button"
                 >
-                  write Me{" "}
+                  Write me{" "}
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>
               <div className="contact__card">
                 <i className="bx bxl-whatsapp contact__card-icon"></i>
-                <h3 className="contact__card-title">Whatsapp</h3>
-                <span className="contact__card-data">(+20)1112698044</span>
+                <h3 className="contact__card-title">WhatsApp</h3>
+                <span className="contact__card-data">(+20) 111 269 8044</span>
                 <a
-                  target={"_blank"}
-                  href="https://api.whatsapp.com/send?phone=01112698044&text=Hello, more information!
-"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://api.whatsapp.com/send?phone=201112698044&text=Hello%2C%20I%20saw%20your%20portfolio."
                   className="contact__button"
                 >
-                  write Me{" "}
+                  Write me{" "}
+                  <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+              <div className="contact__card">
+                <i className="bx bxl-linkedin contact__card-icon"></i>
+                <h3 className="contact__card-title">LinkedIn</h3>
+                <span className="contact__card-data">Mohamed Tarek</span>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/mohamed-tarek-246084250/"
+                  className="contact__button"
+                >
+                  Connect{" "}
                   <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                 </a>
               </div>
               <div className="contact__card">
                 <i className="bx bx-location-plus contact__card-icon"></i>
                 <h3 className="contact__card-title">Location</h3>
-                <span className="contact__card-data">Maadi,Cairo,Egypt</span>
+                <span className="contact__card-data">Maadi, Cairo, Egypt</span>
                 <a
-                  target={"_blank"}
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://goo.gl/maps/mWGJ9yEqF52VuDtf9"
                   className="contact__button"
                 >
@@ -55,13 +85,14 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact__content">
-            <h3 className="contact__title">Contact Me</h3>
-            <form className="contact__form">
+            <h3 className="contact__title">Send a message</h3>
+            <form className="contact__form" onSubmit={handleSubmit}>
               <div className="contact__form-div">
                 <label className="contact__form-tag">Name</label>
                 <input
                   type="text"
                   name="name"
+                  required
                   className="contact__form-input"
                   placeholder="Insert your name"
                 />
@@ -71,25 +102,27 @@ export default function Contact() {
                 <input
                   type="email"
                   name="email"
+                  required
                   className="contact__form-input"
                   placeholder="Insert your email"
                 />
               </div>
               <div className="contact__form-div contact__form-area">
-                <label className="contact__form-tag">Project</label>
+                <label className="contact__form-tag">Message</label>
                 <textarea
                   name="project"
                   cols="30"
                   rows="10"
-                  maxLength={200}
-                  placeholder="Insert your project"
+                  maxLength={500}
+                  required
+                  placeholder="Write your message"
                   className="contact__form-input"
                 ></textarea>
               </div>
-              <button href="#contact" className="button button--flex">
+              <button type="submit" className="button button--flex">
                 Send Message
                 <svg
-                  class="button__icon"
+                  className="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"

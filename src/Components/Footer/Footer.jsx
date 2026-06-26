@@ -15,7 +15,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="#portfolio" className="footer__link">
-                Portofolio
+                Portfolio
               </a>
             </li>
             <li>
@@ -26,29 +26,33 @@ export default function Footer() {
           </ul>
           <div className="footer__social">
             <a
-              href="https://www.instagram.com/"
-              target={"_blank"}
-              className="footer__social-link"
-            >
-              <i class="uil uil-instagram"></i>
-            </a>
-            <a
               href="https://github.com/mohamedtarek1911"
-              target={"_blank"}
+              target="_blank"
+              rel="noreferrer"
               className="footer__social-link"
+              aria-label="GitHub"
             >
-              <i class="uil uil-github-alt"></i>
+              <i className="uil uil-github-alt"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/mohamed-tarek-246084250/"
-              target={"_blank"}
+              target="_blank"
+              rel="noreferrer"
               className="footer__social-link"
+              aria-label="LinkedIn"
             >
-              <i class="uil uil-linkedin-alt"></i>
+              <i className="uil uil-linkedin-alt"></i>
+            </a>
+            <a
+              href="mailto:mohamedtarek7670@gmail.com"
+              className="footer__social-link"
+              aria-label="Email"
+            >
+              <i className="uil uil-envelope"></i>
             </a>
           </div>
           <span className="footer__copy">
-            &#169; Mohamed Tarek. All rigths reserved
+            &#169; {new Date().getFullYear()} Mohamed Tarek. All rights reserved
           </span>
         </div>
       </footer>

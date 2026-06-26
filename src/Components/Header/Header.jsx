@@ -33,7 +33,7 @@ function Header() {
     <>
       <header className="header">
         <nav className="nav container">
-          <a href="index.html" className="nav__logo">
+          <a href="#home" className="nav__logo">
             Mohamed
           </a>
           <div className={Toggle ? "nav__menu show__menu" : "nav__menu"}>
@@ -111,7 +111,7 @@ function Header() {
                       : "nav__link "
                   }
                 >
-                  <i className="uil uil-scenery nav__icon"></i>Portofolio
+                  <i className="uil uil-scenery nav__icon"></i>Portfolio
                 </a>
               </li>
               <li className="nav__item">
@@ -130,10 +130,10 @@ function Header() {
                 </a>
               </li>
             </ul>
-            <i onClick={hideMenu} class="uil uil-times nav__close"></i>
+            <i onClick={hideMenu} className="uil uil-times nav__close"></i>
           </div>
           <div onClick={showMenu} className="nav__toggle">
-            <i class="uil uil-apps"></i>
+            <i className="uil uil-apps"></i>
           </div>
         </nav>
       </header>

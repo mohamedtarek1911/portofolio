@@ -5,25 +5,29 @@ export default function Social() {
     <>
       <div className="home__social">
         <a
-          href="https://www.instagram.com/"
-          target={"_blank"}
-          className="home__social-icon"
-        >
-          <i class="uil uil-instagram"></i>
-        </a>
-        <a
           href="https://github.com/mohamedtarek1911"
-          target={"_blank"}
+          target="_blank"
+          rel="noreferrer"
           className="home__social-icon"
+          aria-label="GitHub"
         >
-          <i class="uil uil-github-alt"></i>
+          <i className="uil uil-github-alt"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/mohamed-tarek-246084250/"
-          target={"_blank"}
+          target="_blank"
+          rel="noreferrer"
           className="home__social-icon"
+          aria-label="LinkedIn"
         >
-          <i class="uil uil-linkedin-alt"></i>
+          <i className="uil uil-linkedin-alt"></i>
+        </a>
+        <a
+          href="mailto:mohamedtarek7670@gmail.com"
+          className="home__social-icon"
+          aria-label="Email"
+        >
+          <i className="uil uil-envelope"></i>
         </a>
       </div>
     </>
