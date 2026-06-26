@@ -1,32 +1,25 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.9459b78f.css",
-    "main.js": "/portofolio/static/js/main.13b514c9.js",
+    "main.css": "/portofolio/static/css/main.d9189c92.css",
+    "main.js": "/portofolio/static/js/main.a3f0382a.js",
     "static/media/boxicons.svg": "/portofolio/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
-    "static/media/Weather.jpg": "/portofolio/static/media/Weather.8b87bbada36a74a22f66.jpg",
+    "static/media/wakeb.png": "/portofolio/static/media/wakeb.9e8fdcf6e7a42f75bbb0.png",
+    "static/media/prosoft.png": "/portofolio/static/media/prosoft.d0586ae924c41d13753a.png",
+    "static/media/seven.png": "/portofolio/static/media/seven.fb03bc1c5b2f68a65013.png",
+    "static/media/opd.png": "/portofolio/static/media/opd.130937fe389fd7b7f285.png",
     "static/media/boxicons.eot": "/portofolio/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
     "static/media/fa-solid-900.ttf": "/portofolio/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/messbar.png": "/portofolio/static/media/messbar.14fb2e21afafafd48eeb.png",
     "static/media/boxicons.woff": "/portofolio/static/media/boxicons.d12afc36557395143e4b.woff",
     "static/media/boxicons.ttf": "/portofolio/static/media/boxicons.db9ddb1898dbd76badca.ttf",
-    "static/media/NoxesMovies.jpg": "/portofolio/static/media/NoxesMovies.74a7fd62d1448aea4a16.jpg",
-    "static/media/Mapty.jpg": "/portofolio/static/media/Mapty.994f9057835edc081d7e.jpg",
-    "static/media/Commerce.jpg": "/portofolio/static/media/Commerce.62c4ee0bde7112bcd6cf.jpg",
-    "static/media/Omnifood.jpg": "/portofolio/static/media/Omnifood.ab30050ac0dbf5c57c5f.jpg",
-    "static/media/E-mart.jpg": "/portofolio/static/media/E-mart.1b76fc05b5936f68f9b6.jpg",
+    "static/media/rox custody.png": "/portofolio/static/media/rox custody.67dde9f74e545e50ebc2.png",
     "static/media/fa-brands-400.ttf": "/portofolio/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
-    "static/media/E-medicine.jpg": "/portofolio/static/media/E-medicine.45c128245017a456eca5.jpg",
     "static/media/fa-solid-900.woff2": "/portofolio/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
-    "static/media/Natours.jpg": "/portofolio/static/media/Natours.8b978838eed8494fc573.jpg",
-    "static/media/Bankist.jpg": "/portofolio/static/media/Bankist.be6715090e1838cb5a40.jpg",
     "static/media/boxicons.woff2": "/portofolio/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "static/media/WhatsApp Image 2022-12-28 at 9.12.05 PM.jpeg": "/portofolio/static/media/WhatsApp Image 2022-12-28 at 9.12.05 PM.436c2a8cd1aac54118dc.jpeg",
     "static/media/fa-brands-400.woff2": "/portofolio/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
-    "static/media/Deflio.jpg": "/portofolio/static/media/Deflio.5744d8d3c0ac3155569e.jpg",
-    "static/media/Guess.jpg": "/portofolio/static/media/Guess.1a7390dd1880ef71e434.jpg",
-    "static/media/Cruds.jpg": "/portofolio/static/media/Cruds.c118ee84a2881893a0a5.jpg",
-    "static/media/Mohamed_Tarek_Resume.pdf": "/portofolio/static/media/Mohamed_Tarek_Resume.7ef95b66f0e8ba2546f3.pdf",
+    "static/media/Mohamed_Tarek_Resume.pdf": "/portofolio/static/media/Mohamed_Tarek_Resume.5b707a00ef31ffe58f1a.pdf",
     "static/media/fa-regular-400.ttf": "/portofolio/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
-    "static/media/Notes.jpg": "/portofolio/static/media/Notes.02a913ab48fb49eb5e4e.jpg",
     "static/media/unicons-17.svg": "/portofolio/static/media/unicons-17.1a716ac7acb1149977e4.svg",
     "static/media/unicons-10.svg": "/portofolio/static/media/unicons-10.13f9f8ebe0996fb69279.svg",
     "static/media/unicons-18.svg": "/portofolio/static/media/unicons-18.fcba4313b65931e87b8e.svg",
@@ -136,11 +129,11 @@
     "static/media/unicons-20.woff2": "/portofolio/static/media/unicons-20.6c809da561fa04cfaf55.woff2",
     "static/media/unicons-20.svg": "/portofolio/static/media/unicons-20.2ad9c206a43dc50bde94.svg",
     "index.html": "/portofolio/index.html",
-    "main.9459b78f.css.map": "/portofolio/static/css/main.9459b78f.css.map",
-    "main.13b514c9.js.map": "/portofolio/static/js/main.13b514c9.js.map"
+    "main.d9189c92.css.map": "/portofolio/static/css/main.d9189c92.css.map",
+    "main.a3f0382a.js.map": "/portofolio/static/js/main.a3f0382a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9459b78f.css",
-    "static/js/main.13b514c9.js"
+    "static/css/main.d9189c92.css",
+    "static/js/main.a3f0382a.js"
   ]
 }
