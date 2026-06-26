@@ -66,6 +66,12 @@
   margin-bottom: var(--mb-3);
 }
 
+.home__buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .home__container {
   row-gap: 7rem;
 }

@@ -10,17 +10,19 @@ export default function About() {
         <h2 className="section__title">About Me</h2>
         <span className="section__subtitle">My introduction</span>
         <div className="about__container container grid">
-          <img src={aboutImg} alt="" className="about__img" />
+          <img src={aboutImg} alt="Mohamed Tarek" className="about__img" />
           <div className="about__data">
             <Info />
             <p className="about__desc">
-              My name is Mohamed Tarek, a Frontend developer; with extensive
-              knowledge and experience in web development and learning new
-              technologies; my favorite language is javascript. I create web
-              pages with UI / UX user interface .
+              Front-End Engineer with 3+ years of experience shipping production
+              web applications across legal, recruitment, surveillance, and
+              crypto domains. I build enterprise dashboards, real-time
+              monitoring interfaces, and accessible Arabic RTL experiences using
+              Vue 3, React, Next.js, and TypeScript — focused on performance,
+              UX, and business impact in fast-moving teams.
             </p>
             <a download="" href={cv} className="button button--flex">
-              Download Cv
+              Download CV
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
