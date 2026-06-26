@@ -1,130 +1,71 @@
-import work1 from "../../assets/Projects/Bankist.jpg";
-import Work2 from "../../assets/Projects/Commerce.jpg";
-import work3 from "../../assets/Projects/Cruds.jpg";
-import work4 from "../../assets/Projects/Deflio.jpg";
-import work5 from "../../assets/Projects/E-mart.jpg";
-import work6 from "../../assets/Projects/E-medicine.jpg";
-import Work7 from "../../assets/Projects/Guess.jpg";
-import work8 from "../../assets/Projects/Mapty.jpg";
-import work9 from "../../assets/Projects/Natours.jpg";
-import work10 from "../../assets/Projects/Notes.jpg";
-import work11 from "../../assets/Projects/NoxesMovies.jpg";
-import work12 from "../../assets/Projects/Omnifood.jpg";
-import work13 from "../../assets/Projects/Weather.jpg";
+import wakeb from "../../assets/Projects/wakeb.png";
+import roxCustody from "../../assets/Projects/rox custody.png";
+import mesbaar from "../../assets/Projects/messbar.png";
+import seven from "../../assets/Projects/seven.png";
+import prosoft from "../../assets/Projects/prosoft.png";
+import opd from "../../assets/Projects/opd.png";
 
 export const projectsData = [
   {
     id: 1,
-    image: work9,
-    title: "Natours",
-    category: "HTML&CSS",
-    demo: "https://mohamedtarek1911.github.io/Natours/",
-    repo: "https://github.com/mohamedtarek1911/Natours",
+    image: wakeb,
+    title: "Wakeb Platform",
+    category: "Vue",
+    description:
+      "Enterprise dashboards with live video, LPR, maps, drone tracking, and Arabic RTL interfaces across 13+ production apps.",
+    demo: "https://wakeb.tech/ar",
   },
   {
     id: 2,
-    image: Work2,
-    title: "Shopping Hub",
-    category: "React",
-    demo: "https://mohamedtarek1911.github.io/commerce/",
-    repo: "https://github.com/mohamedtarek1911/commerce",
+    image: roxCustody,
+    title: "Rox Custody",
+    category: "Vue",
+    description:
+      "Institutional crypto custody platform with multi-wallet support, vault payments, and real-time trading features.",
+    demo: "https://www.roxcustody.com/",
   },
   {
     id: 3,
-    image: work6,
-    title: "E-medicine",
+    image: mesbaar,
+    title: "Mesbaar",
     category: "React",
-    demo: "https://mohamedtarek1911.github.io/E-madicine2/",
-    repo: "https://github.com/mohamedtarek1911/E-madicine2",
+    description:
+      "Candidate assessment platform with 165+ evaluation questions, session management, and English/Arabic RTL support.",
+    demo: "https://mesbaar.com/",
   },
   {
     id: 4,
-    image: work11,
-    title: "NoxesMovies",
-    category: "React",
-    demo: "https://mohamedtarek1911.github.io/NoxesMovies/",
-    repo: "https://github.com/mohamedtarek1911/NoxesMovies",
+    image: seven,
+    title: "Seven.eg",
+    category: "Nuxt",
+    description:
+      "Responsive marketing website built with Nuxt 3 and modern UI patterns.",
+    demo: "https://seven.eg/",
   },
-
   {
     id: 5,
-    image: work5,
-    title: "E-mart",
-    category: "React",
-    demo: "https://mohamedtarek1911.github.io/E-mart/",
-    repo: "https://github.com/mohamedtarek1911/E-mart",
+    image: prosoft,
+    title: "Prosoft",
+    category: "Next.js",
+    description:
+      "Marketing website with Next.js 15, motion-driven UI using GSAP and Framer Motion.",
+    demo: "https://prosoft.com.eg/",
   },
   {
     id: 6,
-    image: work12,
-    title: "Omnifood",
-    category: "HTML&CSS",
-    demo: "https://mohamedtarek1911.github.io/Omnifood/",
-    repo: "https://github.com/mohamedtarek1911/Omnifood",
-  },
-
-  {
-    id: 7,
-    image: Work7,
-    title: "Guess My Number",
-    category: "JavaScript",
-    demo: "https://mohamedtarek1911.github.io/guess-my-number/",
-    repo: "https://github.com/mohamedtarek1911/guess-my-number",
-  },
-  {
-    id: 8,
-    image: work8,
-    title: "Mapty",
-    category: "JavaScript",
-    demo: "https://mohamedtarek1911.github.io/Mapty/",
-    repo: "https://github.com/mohamedtarek1911/Mapty",
-  },
-
-  {
-    id: 9,
-    image: work1,
-    title: "Bankist",
-    category: "Javascript",
-    demo: "https://mohamedtarek1911.github.io/Bankist/",
-    repo: "https://github.com/mohamedtarek1911/Bankist",
-  },
-  {
-    id: 10,
-    image: work10,
-    title: "Notes",
-    category: "React",
-    demo: "https://mohamedtarek1911.github.io/Note/",
-    repo: "https://github.com/mohamedtarek1911/Note",
-  },
-  {
-    id: 11,
-    image: work3,
-    title: "CRUDS",
-    category: "Javascript",
-    demo: "https://mohamedtarek1911.github.io/C_operations/",
-    repo: "https://github.com/mohamedtarek1911/C_operations",
-  },
-  {
-    id: 12,
-    image: work4,
-    title: "Devfolio",
-    category: "HTML&CSS",
-    demo: "https://mohamedtarek1911.github.io/-portoflio/",
-    repo: "https://github.com/mohamedtarek1911/-portoflio",
-  },
-  {
-    id: 13,
-    image: work13,
-    title: "Weather",
-    category: "JavaScript",
-    demo: "https://mohamedtarek1911.github.io/weather-now/",
-    repo: "https://github.com/mohamedtarek1911/weather-now",
+    image: opd,
+    title: "Discovery Education OPD",
+    category: "Vue",
+    description:
+      "Online Professional Development platform with WCAG accessibility, i18n, and dashboard redesign.",
+    demo: "https://opd-de.com/",
   },
 ];
 
 export const projectsNav = [
   { name: "All" },
+  { name: "Vue" },
   { name: "React" },
-  { name: "JavaScript" },
-  { name: "HTML&CSS" },
+  { name: "Next.js" },
+  { name: "Nuxt" },
 ];
