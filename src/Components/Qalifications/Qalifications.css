@@ -1,5 +1,5 @@
 .qali__container {
-  max-width: 768px;
+  max-width: 900px;
   transition: all 0.5s;
 }
 .qali__tabs {
@@ -53,7 +53,15 @@
 .qali__subtitle {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-0-5);
+}
+
+.qali__description {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  line-height: 1.5;
+  margin-bottom: var(--mb-0-75);
+  max-width: 320px;
 }
 .qali__calender {
   font-size: var(--small-font-size);
